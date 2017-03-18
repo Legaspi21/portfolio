@@ -9,3 +9,8 @@
 	-moz-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+.navbar-logo {
+  -webkit-animation: text-flicker-in-glow 1.5s linear both;
+  -moz-animation: text-flicker-in-glow 1.5s linear both;
+  animation: text-flicker-in-glow 1.5s linear both;
+}

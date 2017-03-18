@@ -69,6 +69,11 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+.navbar-logo {
+  -webkit-animation: text-flicker-in-glow 1.5s linear both;
+  -moz-animation: text-flicker-in-glow 1.5s linear both;
+  animation: text-flicker-in-glow 1.5s linear both;
+}
 .navbar-default .navbar-header .navbar-brand {
   color: #e74c3c;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
